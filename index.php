@@ -306,7 +306,7 @@
             <!-- Copyrights -->
            
                 <div class="copyrights">
-                    <span class="copyR">© 2019 DaleCooper59 Tous droits réservés</span>
+                    <span class="copyR"></span>
                 </div>
     </footer>
 
