@@ -57,6 +57,7 @@ function test_input($data) {
     
   } catch (Exception $e){
     $e->getMessage();
+    $e->getCode();
   }
 }
 }
