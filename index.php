@@ -89,7 +89,7 @@
 
         </div>
         <div class="header_sub">
-            <SMAll>Mon Cv...</SMAll>
+            <SMAll>Mon CV...</SMAll>
         </div>
     </header>
 

@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Barlow&display=swap');
 :root {
-  --fontMain: 'Merriweather', serif;
+  --fontMain: 'Barlow', sans-serif;
   --fontAlter:'Dancing Script', cursive;
   --mainColorLink:#24818d;
   --mainColorLinkHover:#9ebbbe;
