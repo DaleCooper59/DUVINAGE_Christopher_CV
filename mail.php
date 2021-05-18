@@ -10,9 +10,18 @@ require_once 'filePass.php';
 $mail = new PHPMailer(true);
 
 if(isset($_POST['submit'])){
-  $name = htmlspecialchars( $_POST['name']);
-  $email =htmlspecialchars($_POST['email']);
-  $message = htmlspecialchars($_POST['message']);
+  if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'])){
+
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+
+  $name = test_input( $_POST['name']);
+  $email =test_input($_POST['email']);
+  $message = test_input($_POST['message']);
 
   try{
     $mail->isSMTP();
@@ -49,6 +58,7 @@ if(isset($_POST['submit'])){
   } catch (Exception $e){
     $e->getMessage();
   }
+}
 }
 ?>
       
