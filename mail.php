@@ -56,8 +56,8 @@ function test_input($data) {
     $mail->send();
     
   } catch (Exception $e){
-    $e->getMessage();
-    $e->getCode();
+    echo $e->getMessage();
+    echo $e->getCode();
   }
 }
 }
