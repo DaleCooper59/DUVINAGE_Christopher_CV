@@ -89,7 +89,7 @@
 
         </div>
         <div class="header_sub">
-            <SMAll>Mon CV...</SMAll>
+            <SMAll>Développeur Web et intégrateur</SMAll>
         </div>
     </header>
 
@@ -117,17 +117,13 @@
                         fier de pouvoir vous offrir mes
                         compétences.
                         M'étant formé en autodidacte, je cherche constamment à perfectionner mon travail.
-                        Aujourd'hui en pleine formation de développement web et web mobile, j'ai consolidé mon souhait
+                        Aujourd'hui après avoir effectué une formation de développement web et web mobile, j'ai consolidé mon souhait
                         de pouvoir
                         exercer professionellement le métier de développeur.
 
-                        En effet je recherche un Stage qui débuterait le <strong>26 juillet 2021</strong> au sein d'une
-                        structure à laquelle j'apporterai tout mon
-                        savoir faire mais surtout mon envie de bien faire et mon insatiable besoin d'apprendre.
-
                         Je suis curieux et persévérant. J'aime beaucoup lire (notamment de la doc <i
                             class="fas fa-smile-wink"></i> ), apprendre est mon quotidien.
-                        Le challenge pour moi est nécessaire pour progresser et est un but dans ma façon de travailler.
+                        Le challenge pour moi est nécessaire pour progresser, il est un but dans ma façon de travailler.
                     </p>
                     <p>
                         Qui ne s'est jamais demandé comment fonctionne une page internet?
@@ -135,13 +131,20 @@
                         net.
                         J'ai commencé par le language de structuration <b>HTML 5</b>.
                         Ensuite vint le style avec <b>CSS 3</b>. Tout de suite séduit j'ai voulu en savoir davantage.
-                        J'ai découvert la programmation à travers le <b>Javascript</b>, l'algorythmie, etc.
+                        J'ai découvert la programmation à travers l'algorythmie puis le<b>Javascript</b>, etc.
 
                         J'ai notemment aqcuis de nombreuses compétences, parmi les fameux Softskills.
 
                         Dans cette formation qui dure jusqu'au <strong>30 Octobre 2021</strong>, je consolide mes
                         connaissances et j'apprend de nouveaux languages.
                         La perspective de monter en compétences est une réelle satisfaction.
+
+                        J'ai effectué un Stage à l'agence Akawam qui se situe à Villeneuve d'ascq du<strong> 26 Juillet</strong> au <strong> 22 Octobre 2021</strong>.
+                        Ce stage m'a permis d'évoluer sur le plan technique notamment à travers l'apprentissage de l'utilisation d'un Framework (Laravel) et 
+                        d'autres technologies.
+                        J'ai pu à travers mes réalisations largement progressé sur la programmation orientée objet et le modèle MVC.
+                        Ce stage m'a permis aussi de me mettre dans les conditions de travail en agance digitale avec les contraintes liées au délai et à la satisfaction du client.
+
 
                         Voici mes compétences <i class="fas fa-arrow-circle-down"></i>
                     </p>
@@ -161,12 +164,20 @@
                         <img src="./img/icon/css-3.png" alt="icon css 3" class="img_competences" id="css-3">
                         <img src="./img/icon/script-java.png" alt="icon Javascript" class="img_competences" id="Javascript">
                         <img src="./img/icon/bootstrap.png" alt="icon Bootstrap" id="Bootstrap">
+                        <img src="./img/icon/tailwind.png" alt="icon tailwind" id="tailwind">
                         <img src="./img/icon/sass.png" alt="icon sass" class="img_competences" id="sass">
                         <img src="./img/icon/sql-server.png" alt="icon sql" class="img_competences" id="sql">
+                        <img width="80" height="80" src="./img/icon/laragon.png" alt="icon laragon" class="img_competences" id="laragon">
+                        <img width="80" height="80"  src="./img/icon/phpMyAdmin.png" alt="icon phpMyAdmin" class="img_competences" id="phpMyAdmin">
                         <img src="./img/icon/mcd.png" alt="icon mcd" class="img_competences" id="mcd">
+                        <img width="80" height="80"  src="./img/icon/workbench.png" alt="icon workbench" class="img_competences" id="workbench">
                         <img src="./img/icon/php.png" alt="icon php" class="img_competences" id="php">
+                        <img src="./img/icon/laravel.png" alt="icon laravel" class="img_competences" id="laravel">
                         <img src="./img/icon/git.png" alt="icon Git" class="img_competences" id="Git">
+                        <img src="./img/icon/gitlab.png" alt="icon gitlab" class="img_competences" id="gitlab">
                         <img src="./img/icon/github.png" alt="icon Github" class="img_competences" id="Github">
+                        <img width="80" height="80"  src="./img/icon/wordpress.png" alt="icon wordpress" class="img_competences" id="wordpress">
+                        <img width="80" height="80"  src="./img/icon/o2switch.png" alt="icon o2switch" class="img_competences" id="o2switch">
                  </div>
 
                     <small>Icons made by : <a href="https://www.flaticon.com/fr/auteurs/pixel-perfect">Pixel Perfect</a>,
@@ -190,7 +201,7 @@
                         De formation juridique (6 ans), je suis passé par l'animation puis j'ai été Gendarme. Cela m'a
                         valut une expérience hors du commun mais en paralèlle,
                         j'ai toujours accordé du temps à ma passion pour le développement Web.
-                        Depuis quelques années je peux m'y consacrer plus amplement.
+                        Depuis plus d'un an je peux m'y consacrer plus amplement.
                     </p>
                     <div class="slider">
                         <div class="slides animateSlides">
@@ -284,6 +295,7 @@
             <div class="sub2_footer block_footer3">
 
                 <form class="contact-form" action="" method="post">
+                    <h5>En construction ...</h5>
                     <label for="name">Nom et prénom</label>
                     <input type="text" id="name" name="name" class="text-box" pattern="^[A-Za-z ,.'-]+$" minlength="4" maxlength="80" placeholder="Votre nom et prénom" required>
                     
